@@ -44,6 +44,16 @@ Ziel war es, eine funktionierende Jenkins-Pipeline zu erstellen, die:
    - Artefakt im Jenkins-Artefaktbereich archiviert.
    - Setup entspricht einer echten Deployment-Pipeline für Entwicklungs- und Integrationsumgebungen.
 
+## Zusatz, was man noch dazubauen könnte
+
+**TOSCA Smoke Tests – Automatisierte Post-Deployment-Prüfungen**
+  - Nach jedem Jenkins-Deployment automatisiert TOSCA-Tests starten, um Kernfunktionalitäten wie Login oder API-Responses sofort zu validieren.
+
+**Splunk Integration – Automatische Log-Analyse**
+  - Splunk REST API in die Pipeline integrieren, um nach dem Deployment automatisch nach kritischen Fehlern in Logfiles zu suchen und zu reporten.
+
+**Dynatrace Monitoring – Performance- und Stabilitätschecks**
+  - Dynatrace Metrics API nutzen, um direkt nach dem Deployment KPIs wie Latenz und Fehlerrate zu prüfen und bei Abweichungen sofort zu eskalieren.
 
 
 # Bewerbungsprofil – Navdeep Singh
