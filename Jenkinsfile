@@ -3,18 +3,18 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'mvn -B -DskipTests clean package'
+                bat '"%MAVEN_HOME%\\bin\\mvn" -B -DskipTests clean package'
             }
         }
         stage('Unit Tests') {
             steps {
-                bat 'mvn -B test'
+                bat '"%MAVEN_HOME%\\bin\\mvn" -B test'
             }
         }
     }
     post {
         always {
-            archiveArtifacts artifacts: 'target\\*.jar', fingerprint: true
+            archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
         }
     }
 }
