@@ -76,9 +76,7 @@ Als **Senior Cloud Operations Engineer** bringe ich fundierte technische Erfahru
 
 **Senior Cloud Operations Engineer**, Allianz Technology GmbH  
 *07/2025 – 08/2025*  
-Leitung und Koordination von Deployments auf internationalen Staging- und Produktionsumgebungen.  
-Teilnahme an Stakeholder-Meetings zur Abstimmung von Deployment-Plänen, Priorisierung von Release-Inhalten und Status-Reporting.  
-Sicherstellung einer stabilen Integrationsstufe durch enge Abstimmung mit Entwicklung und Infrastruktur-Teams.
+Leitung und Koordination von Deployments auf internationalen Staging- und Produktionsumgebungen
 
 **Cloud Operations Engineer**, Allianz Technology GmbH  
 *04/2024 – heute*  
@@ -117,7 +115,6 @@ Verantwortlich für Major Incidents, RCA, SLA-Monitoring, internationale Eskalat
   - Ingenieur-Titel (22.08.2025)
 
 
-
 ## Warum UNIQA?
 
 Die Rolle als **Technical Integrationmanager** verbindet meine Stärken in **technischer Umsetzung, Fehleranalyse und Deployment-Management**.  
@@ -131,6 +128,11 @@ Ich bringe sowohl die technische Tiefe als auch die Kommunikationsstärke mit, u
   Wiedereinstieg in Krav Maga seit Juli 2025, Ziel: Schwarzer Gurt / Level 5, Prüfung Ende September<br/>
   3x die Woche Kraftsport und jeden Tag 10000 Schritte<br/>
   Autodiktisches Lernen um mein Skillset in verschiedensten Programmiersprachen zu erweitern damit tieftechnische Wissen in Projekten aufgebaut wird.
+
+# Persönliche Weiterentwicklung<br/>
+
+  Master in AI ab 2028 auf der FH Technikum Wien, Donnerstag und Freitag am Abend vor Ort, Uhrzeit: 18:00 - 21:00<br/>
+  PMA Level C Zertifikat ab 2026<br/>
 
 ## Kontakt
 
