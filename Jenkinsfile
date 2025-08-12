@@ -1,20 +1,20 @@
 pipeline {
-  agent any
-  stages {
-    stage('Build') {
-      steps {
-        sh 'mvn -B -DskipTests clean package'
-      }
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                bat 'mvn -B -DskipTests clean package'
+            }
+        }
+        stage('Unit Tests') {
+            steps {
+                bat 'mvn -B test'
+            }
+        }
     }
-    stage('Unit Tests') {
-      steps {
-        sh 'mvn -B test'
-      }
+    post {
+        always {
+            archiveArtifacts artifacts: 'target\\*.jar', fingerprint: true
+        }
     }
-  }
-  post {
-    always {
-      archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
-    }
-  }
 }
